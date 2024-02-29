@@ -14,3 +14,27 @@ a {
     text-decoration: none;
     color: var(--gray-color);
 }
+
+/* width */
+main ::-webkit-scrollbar {
+   /* width: 2px;*/
+   height: 2px;
+  }
+  
+  /* Track */
+  main ::-webkit-scrollbar-track {
+   /* box-shadow: inset 0 0 5px grey; */
+   background-color: var(--gray-color);
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  main ::-webkit-scrollbar-thumb {
+    background: var(--white-color); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  main ::-webkit-scrollbar-thumb:hover {
+    background: blue; 
+  }
